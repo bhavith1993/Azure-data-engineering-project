@@ -10,17 +10,21 @@ This project demonstrates a production-style, end-to-end data engineering pipeli
 
 ![Architecture Diagram](./Architecture/Architecture.png)
 
+
 | Layer | Service | Description |
 |---|---|---|
+| **Infrastructure** | Terraform | Provisions all Azure resources as code (IaC) |
 | **Ingestion** | Azure Data Factory | Orchestrates HTTP data pull into the data lake |
 | **Raw (Bronze)** | Azure Data Lake Gen2 | Stores raw, unprocessed source data |
 | **Transform (Silver)** | Azure Databricks | Cleans, joins, and transforms Bronze data |
 | **Serve (Gold)** | Azure Synapse Analytics | Exposes curated data via external tables and views |
 | **Reporting** | Power BI | Interactive dashboard for sales analytics |
 
+---
 
 ## Tech Stack
 
+- **Terraform** — Infrastructure as Code for all Azure resource provisioning
 - **Azure Data Factory** — Pipeline orchestration and HTTP ingestion
 - **Azure Data Lake Storage Gen2** — Scalable raw and transformed data storage
 - **Azure Databricks** — PySpark-based data transformation (Bronze → Silver)
@@ -33,13 +37,42 @@ This project demonstrates a production-style, end-to-end data engineering pipeli
 ## Repository Structure
 
 ```
-├── ADF-Scripts/          # ADF pipeline JSON export
-├── Architecture/         # Pipeline architecture diagram
-├── Data/                 # Sample source CSV datasets
-├── PowerBI/              # Power BI report (.pbix)
-├── Synapse SQL scripts/  # DDL scripts for schema, external tables, and views
+├── terraform/                  # Terraform IaC — full Azure infra provisioning
+│   ├── main.tf                 # Core resource definitions
+│   ├── variables.tf            # Input variables
+│   ├── outputs.tf              # Output values
+│   └── providers.tf            # Azure provider configuration
+├── ADF-Scripts/                # ADF pipeline JSON export
+├── Architecture/               # Pipeline architecture diagram
+├── Data/                       # Sample source CSV datasets
+├── PowerBI/                    # Power BI report (.pbix)
+├── Synapse SQL scripts/        # DDL scripts for schema, external tables, and views
 └── README.md
 ```
+
+---
+
+## Infrastructure as Code (Terraform)
+
+All Azure resources in this project are provisioned using Terraform, including:
+
+- **Resource Group** — Logical container for all project resources
+- **Azure Data Lake Storage Gen2** — With hierarchical namespace enabled
+- **Azure Data Factory** — With linked services and pipeline definitions
+- **Azure Databricks Workspace** — For PySpark-based transformations
+- **Azure Synapse Analytics Workspace** — Serverless SQL pool for data serving
+- **Azure Key Vault** — For secure secret and credential management
+
+### Deploy the Infrastructure
+
+```bash
+cd terraform
+terraform init
+terraform plan
+terraform apply
+```
+
+> **Note:** Ensure you have the Azure CLI installed and are logged in (`az login`) before running Terraform.
 
 ---
 
@@ -75,6 +108,7 @@ Source: [AdventureWorks](https://github.com/Microsoft/sql-server-samples/tree/ma
 
 ## Skills Demonstrated
 
+- Infrastructure as Code (IaC) using Terraform on Azure
 - End-to-end Azure data pipeline design and implementation
 - Medallion architecture (Bronze / Silver / Gold) on ADLS Gen2
 - ADF pipeline authoring and HTTP connector configuration
