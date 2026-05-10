@@ -1,0 +1,122 @@
+{
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1",
+		"resource_type": "azurerm_resource_group",
+		"resource_name": "res-0"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201",
+		"resource_type": "azurerm_data_factory",
+		"resource_name": "res-1"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/datasets/DelimitedText1": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/datasets/DelimitedText1",
+		"resource_type": "azurerm_data_factory_dataset_delimited_text",
+		"resource_name": "res-2"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/datasets/ds_http": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/datasets/ds_http",
+		"resource_type": "azurerm_data_factory_dataset_delimited_text",
+		"resource_name": "res-3"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/datasets/ds_parameters": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/datasets/ds_parameters",
+		"resource_type": "azurerm_data_factory_dataset_json",
+		"resource_name": "res-4"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/linkedservices/ls_adls": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/linkedservices/ls_adls",
+		"resource_type": "azurerm_data_factory_linked_service_data_lake_storage_gen2",
+		"resource_name": "res-5"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/linkedservices/ls_github": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/linkedservices/ls_github",
+		"resource_type": "azurerm_data_factory_linked_custom_service",
+		"resource_name": "res-6"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/pipelines/gittoraw": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.DataFactory/factories/adf-azureproject2201/pipelines/gittoraw",
+		"resource_type": "azurerm_data_factory_pipeline",
+		"resource_name": "res-7"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Databricks/workspaces/adb-azure-project1": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Databricks/workspaces/adb-azure-project1",
+		"resource_type": "azurerm_databricks_workspace",
+		"resource_name": "res-8"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/dfltsynapsestorage": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/dfltsynapsestorage",
+		"resource_type": "azurerm_storage_account",
+		"resource_name": "res-9"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/dfltsynapsestorage/blobServices/default/containers/dfltfilesystem": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/dfltsynapsestorage/blobServices/default/containers/dfltfilesystem",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "res-11"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/dfltsynapsestorage/queueServices/default": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/dfltsynapsestorage",
+		"resource_type": "azurerm_storage_account_queue_properties",
+		"resource_name": "res-13"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201",
+		"resource_type": "azurerm_storage_account",
+		"resource_name": "res-15"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201/blobServices/default/containers/bronze": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201/blobServices/default/containers/bronze",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "res-17"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201/blobServices/default/containers/gold": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201/blobServices/default/containers/gold",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "res-18"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201/blobServices/default/containers/parameters": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201/blobServices/default/containers/parameters",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "res-19"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201/blobServices/default/containers/silver": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201/blobServices/default/containers/silver",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "res-20"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201/queueServices/default": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Storage/storageAccounts/storagedatalake2201",
+		"resource_type": "azurerm_storage_account_queue_properties",
+		"resource_name": "res-22"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse",
+		"resource_type": "azurerm_synapse_workspace",
+		"resource_name": "res-24"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse/extendedAuditingSettings/Default": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse/extendedAuditingSettings/Default",
+		"resource_type": "azurerm_synapse_workspace_extended_auditing_policy",
+		"resource_name": "res-28"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse/firewallRules/allowAll": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse/firewallRules/allowAll",
+		"resource_type": "azurerm_synapse_firewall_rule",
+		"resource_name": "res-29"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse/integrationruntimes/AutoResolveIntegrationRuntime": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse/integrationRuntimes/AutoResolveIntegrationRuntime",
+		"resource_type": "azurerm_synapse_integration_runtime_azure",
+		"resource_name": "res-30"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse/securityAlertPolicies/Default": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse/securityAlertPolicies/Default",
+		"resource_type": "azurerm_synapse_workspace_security_alert_policy",
+		"resource_name": "res-31"
+	},
+	"/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse/vulnerabilityAssessments/Default": {
+		"resource_id": "/subscriptions/5db26c92-e03a-41db-9190-a51d27324c3b/resourceGroups/azureproject1/providers/Microsoft.Synapse/workspaces/azureproject-synapse/vulnerabilityAssessments/Default",
+		"resource_type": "azurerm_synapse_workspace_vulnerability_assessment",
+		"resource_name": "res-32"
+	}
+}
